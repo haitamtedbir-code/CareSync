@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CareSync — Edge",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/public",
+      "preLaunchTask": "CareSync : démarrer"
+    },
+    {
+      "name": "CareSync — Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/public",
+      "preLaunchTask": "CareSync : démarrer"
+    }
+  ]
+}

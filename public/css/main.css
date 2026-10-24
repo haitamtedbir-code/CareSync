@@ -1,0 +1,6 @@
+/* Ordre des styles : variables → base → structure → composants → mobile. */
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './components.css';
+@import './responsive.css';
